@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.7rem;
+    font-family: 'ubuntu',sans-serif;
+    color: rgb(219, 219, 239);
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: palevioletred;
+   }
+nav ul{
+    margin: 1.2rem 0;
+    display: flex;
+    gap: 2rem;
+}
+nav ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid whitesmoke;
+}
+ul{
+    list-style: none;
+}
+div img{
+    width: 1519px; ;
+    height: 98vh;
+    background-position: center;
+    background-size: cover;
+}
